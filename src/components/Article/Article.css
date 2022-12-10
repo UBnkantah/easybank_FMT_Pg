@@ -1,0 +1,38 @@
+.article{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.article h1{
+    text-align: start;
+}
+.art-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2em;
+}
+.art-details{
+    max-width: 250px;
+    padding: 20px 0px;
+}
+.art-details img{
+    width: 100%;
+}
+.art-details .item{
+    padding: 10px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+.art-details .item .title{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+    .article{
+        padding: 30px;
+    }
+
+}    
